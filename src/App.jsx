@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./componets/Header";
-import ScrollToTop from "./componets/ScrollToTop";
-import Footer from "./componets/Footer"; // Importa tu Footer actualizado
+import Header from "./components/Header";
+import ScrollToTop from "./components/ScrollToTop";
+import Footer from "./components/Footer"; // Importa tu Footer actualizado
 import Home from "./Pages/Home";
 import Soccer from "./Pages/Soccer";
 import Basket from "./Pages/Basket";
@@ -34,9 +34,9 @@ import MotorsportsRules from './sections/F1/seccionesf1/Reglasf1'
 import Creando from "./sections/Creando";
 
 // --- IMPORTACIONES PARA LOS MODALES ---
-import PrivacyPolicyModal from './componets/PrivacyPolicyModal';
-import TermsAndConditionsModal from './componets/Terms';
-import ContactUsModal from './componets/Contact';
+import PrivacyPolicyModal from './components/PrivacyPolicyModal';
+import TermsAndConditionsModal from './components/Terms';
+import ContactUsModal from './components/Contact';
 // -------------------------------------
 
 

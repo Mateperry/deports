@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import AccordionImage from "../componets/AccordionImage";
-import CampeonesHome from "../componets/CampeonesHome";
+import AccordionImage from "../components/AccordionImage";
+import CampeonesHome from "../components/CampeonesHome";
 import axios from "axios";
 import img1 from "../image/image-home/f1homeinicio.jpeg";
 import img2 from "../image/image-home/basketiniciohome.jpg";
