@@ -86,6 +86,7 @@ function App() {
             <Route path="/reglasf1" element={<MotorsportsRules/>} />
             
             {/* Ruta en creación */}
+            <Route path="*" element={<Home  />} />
             <Route path="/creando" element={<Creando />} />
           </Routes>
 
