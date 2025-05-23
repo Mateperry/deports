@@ -73,7 +73,7 @@ const Header = () => {
                 <li><Link to="/soccer" className="block py-2">Fútbol</Link></li>
                 <li><Link to="/basket" className="block py-2">NBA</Link></li>
                 <li><Link to="/f1" className="block py-2">Fórmula 1</Link></li>
-                <li><Link to="/tennis" className="block py-2">Tenis</Link></li>
+                
               </ul>
 
               {/* Botón de portafolio en móviles */}
