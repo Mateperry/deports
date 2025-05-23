@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import TablaLaLiga from './tablaespanola';
+import TablaLaLiga from './Tablaespanola';
 import TablaLaLigaF from './Tabladelaligaf';
 
 const Ligaespanola = () => {
