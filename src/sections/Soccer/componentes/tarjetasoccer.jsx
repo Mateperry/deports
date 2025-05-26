@@ -75,19 +75,19 @@ const ligasM =[
     title: "Champions League",
     description: "Descubre las estadisticas de la Champions League",
     image: img10,
-    link: "/"
+    link: "/creando"
   },
   {
     title: "Libertadores",
     description: "Descubre las estadisticas de la Libertadores",
     image: img11,
-    link: "/"
+    link: "/creando"
   },
   {
     title: "Europa League",
     description: "Descubre las estadisticas de la Europa League",
     image: img12,
-    link: "/"
+    link: "/creando"
   },
 ];
 

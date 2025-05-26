@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import img1 from "../image/imagencreando.png";
+import { Link } from 'react-router-dom';
 
 const Creando = () => {
   return (
@@ -22,17 +23,16 @@ const Creando = () => {
           <button
             onClick={() => window.open("https://portfoliomateocastro.framer.website/", "_blank")}
             type="submit"
-            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition w-full sm:w-auto"
+            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition w-full sm:w-auto mx-10"
           >
             Portafolio Mateo Castro
           </button>
- { /*        <butaton
-            onClick={() => (window.location.href = "/home")}
-            type="submit"
-            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition w-full sm:w-auto"
-          >
-            Ir a Inicio 
-          </butaton> */}
+      <Link
+           to="/home"
+            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition w-full sm:w-auto inline-block text-center"
+            >
+              Ir a Inicio
+        </Link>
         </form>
       </div>
 
